@@ -1,0 +1,54 @@
+1. I love you, a little , a lot, passionately ... not at all
+    Who remembers back to their time in the schoolyard, when girls would take a flower and tear its petals, saying each of the following phrases each time a petal was torn:
+
+    1."I love you"
+    2."a little"
+    3."a lot"
+    4."passionately"
+    5."madly"
+    6."not at all"
+    If there are more than 6 petals, you start over with "I love you" for 7 petals, "a little" for 8 petals and so on.
+
+    When the last petal was torn there were cries of excitement, dreams, surging thoughts and emotions.
+
+    Your goal in this kata is to determine which phrase the girls would say at the last petal for a flower of a given number of petals. The number of petals is always greater than 0.
+
+2. Sum Arrays
+    Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+
+    Examples
+    Input: [1, 5.2, 4, 0, -1]
+    Output: 9.2
+
+    Input: []
+    Output: 0
+
+    Input: [-2.398]
+    Output: -2.398
+
+3. Beginner - Lost Without a Map
+    Given an array of integers, return a new array with each value doubled.
+
+    For example:
+
+    [1, 2, 3] --> [2, 4, 6]
+
+4. Count the Monkeys!
+    You take your son to the forest to see the monkeys. You know that there are a certain number there (n), but your son is too young to just appreciate the full number, he has to start counting them from 1.
+
+    As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
+
+    For example(Input --> Output):
+
+    10 --> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    1 --> [1]
+
+5. Count of positives / sum of negatives
+    Given an array of integers.
+
+    Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+
+    If the input is an empty array or is null, return an empty array.
+
+    Example
+    For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
