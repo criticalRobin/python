@@ -52,3 +52,33 @@
 
     Example
     For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
+
+6. Fundamentals: Return
+    Make multiple functions that will return the sum, difference, modulus, product, quotient, and the exponent respectively.
+
+    Please use the following function names:
+
+    addition = add
+
+    multiply = multiply
+
+    division = divide (both integer and float divisions are accepted)
+
+    modulus = mod
+
+    exponential = exponent
+
+    subtraction = subt
+
+    Note: All math operations will be: a (operation) b
+
+7. Sum without highest and lowest number
+    Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
+
+    The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value.
+
+    Mind the input validation.
+
+    Example
+    { 6, 2, 1, 8, 10 } => 16
+    { 1, 1, 11, 2, 3 } => 6
