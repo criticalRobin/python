@@ -114,3 +114,8 @@
     I'm new to coding and now I want to get the sum of two arrays...actually the sum of all their elements. I'll appreciate for your help.
 
     P.S. Each array includes only integer numbers. Output is a number too.
+
+12. Beginner - Reduce but Grow
+    Given a non-empty array of integers, return the result of multiplying the values together in order. Example:
+
+    [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
