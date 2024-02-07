@@ -115,3 +115,17 @@
     More examples in the test cases.
 
     Good luck!
+
+7. Odd Ones Out!
+    The town sheriff dislikes odd numbers and wants all odd numbered families out of town! In town crowds can form and individuals are often mixed with other people. However you can distinguish the family they belong to by the number on their shirt. As the sheriff is rather lazy, he decides to just remove families from the town by checking the number on their shirt. As a programmer, help the sheriff remove all the odd numbered families from the town!
+
+    Task
+    You are given a list of numbers. The numbers each repeat a certain number of times. Remove all numbers that repeat an odd number of times while keeping everything else the same.
+
+    oddOnesOut([1, 2, 3, 1, 3, 3]) = [1, 1]
+    In the above example:
+
+    the number 1 appears twice
+    the number 2 appears once
+    the number 3 appears three times
+    2 and 3 both appear an odd number of times, so they are removed from the list. The final result is: [1,1]
