@@ -20,3 +20,19 @@
     Notes
     The hive may be empty or null/None/nil/...
     Python: the hive is passed as a list of lists (not a list of strings)
+
+2. Array Product (Sans n)
+    Given an array of numbers, your task is to return a new array where each index (new_array[i]) is equal to the product of the original array, except for the number at that index (array[i]).
+
+    Two things to keep in mind:
+
+    Zeroes will be making their way into some of the arrays you are given
+    O(n²) solutions will not pass.
+    All input arrays will be valid arrays of nonzero length.
+
+    Examples:
+    [1, 2, 3, 4]              => [24, 12, 8, 6]
+    [2, 3, 4, 5]              => [60, 40, 30, 24]
+    [1, 1, 1]                 => [1, 1, 1]
+    [9, 0, -2]                => [0, -18, 0]
+    [0, -99, 0]               => [0, 0, 0]
