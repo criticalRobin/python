@@ -1,0 +1,32 @@
+from node import Node
+from simple_linked_list import List
+
+node_one = Node("Matias")
+node_two = Node("Pepito")
+node_three = Node("Emilia")
+node_four = Node("Edder")
+node_five = Node("Alena")
+
+my_list = List()
+
+my_list.insert_head_node(node_one.data)
+my_list.insert_head_node(node_two.data)
+my_list.insert_head_node(node_three.data)
+my_list.insert_tail_node(node_four.data)
+my_list.print_list()
+print(my_list.list_size())
+my_list.insert_node_by_position(3, node_five.data)
+my_list.print_list()
+print(my_list.list_size())
+my_list.delete_head_node()
+my_list.print_list()
+print(my_list.list_size())
+my_list.delete_tail_node()
+my_list.print_list()
+print(my_list.list_size())
+my_list.delete_node_by_position(2)
+my_list.print_list()
+print(my_list.list_size())
+my_list.delete_node_by_data("Matias")
+my_list.print_list()
+print(my_list.list_size())
